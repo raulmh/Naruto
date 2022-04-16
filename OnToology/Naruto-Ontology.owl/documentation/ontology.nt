@@ -1,0 +1,513 @@
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology/1.0.0> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the ontology: Naruto Ontology\nAuthor: Raúl Méndez Horcas" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates which is the nature type of chakra of a ninja." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates which mission has a ninja completed." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates to which village a ninja belongs." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average> <http://www.w3.org/2000/01/rdf-schema#comment> "Average strength." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra> <http://www.w3.org/2000/01/rdf-schema#comment> "Energy that allows a ninja to execute techniques." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantity of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> <http://www.w3.org/2000/01/rdf-schema#comment> "Nature type of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin> <http://www.w3.org/2000/01/rdf-schema#comment> "Lowest rank for a ninja." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth> <http://www.w3.org/2000/01/rdf-schema#comment> "Earth type of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire> <http://www.w3.org/2000/01/rdf-schema#comment> "Fire type of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin> <http://www.w3.org/2000/01/rdf-schema#comment> "Advanced rank for a ninja." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra> <http://www.w3.org/2000/01/rdf-schema#comment> "High amount of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin> <http://www.w3.org/2000/01/rdf-schema#comment> "Expert rank for a ninja." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage> <http://www.w3.org/2000/01/rdf-schema#comment> "A ninja leader of a village." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning> <http://www.w3.org/2000/01/rdf-schema#comment> "Lightning type of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra> <http://www.w3.org/2000/01/rdf-schema#comment> "Low amount of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium amount of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> <http://www.w3.org/2000/01/rdf-schema#comment> "Missions performed by ninjas, requested by citizens." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> <http://www.w3.org/2000/01/rdf-schema#comment> "Person that uses chakra and strength to use skills." .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Ninja" .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics> <http://www.w3.org/2000/01/rdf-schema#comment> "Ninja characteristics." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission> <http://www.w3.org/2000/01/rdf-schema#comment> "Highest tier of ninja missions. Applied to missions when the security of the country depends on it." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> <http://www.w3.org/2000/01/rdf-schema#comment> "High rank of ninja missions. Usually consists on escorting someone through a place full of bandits." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium rank for ninja missions. Usually consists on helping someone reach another village." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> <http://www.w3.org/2000/01/rdf-schema#comment> "Lowest rank for ninja missions. Usually consist on taking care of someone's pet or child." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical strength of a ninja." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong> <http://www.w3.org/2000/01/rdf-schema#comment> "High strength." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village> <http://www.w3.org/2000/01/rdf-schema#comment> "Place where a group of ninjas and other citizens live." .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Village" .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water> <http://www.w3.org/2000/01/rdf-schema#comment> "Water type of chakra." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak> <http://www.w3.org/2000/01/rdf-schema#comment> "Low strength." .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind> <http://www.w3.org/2000/01/rdf-schema#comment> "Wind type of chakra." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C5
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D3
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D4
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D5
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D6
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D7
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D8
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D9
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel> "180000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength> "115"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Naruto" .
+# 
+# http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Sasuke
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Sasuke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Sasuke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid5 <http://www.w3.org/2002/07/owl#members> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid10 <http://www.w3.org/2002/07/owl#members> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid14 <http://www.w3.org/2002/07/owl#members> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid19 <http://www.w3.org/2003/11/swrl#body> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#arguments> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "10000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#c> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c> .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid25 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/2003/11/swrl#head> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid29 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid30 <http://www.w3.org/2003/11/swrl#body> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2003/11/swrl#arguments> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#m> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m> .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid36 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid38 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/2003/11/swrl#head> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid40 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid41 <http://www.w3.org/2003/11/swrl#body> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/2003/11/swrl#arguments> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#s> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid47 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid47 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid49 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/2003/11/swrl#head> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> .
+_:genid51 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

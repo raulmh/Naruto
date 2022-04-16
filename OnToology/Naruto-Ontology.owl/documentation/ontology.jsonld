@@ -1,0 +1,758 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid27"
+    }, {
+      "@id" : "_:genid25"
+    }, {
+      "@id" : "_:genid21"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid29"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#c"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "10000"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid38"
+    }, {
+      "@id" : "_:genid36"
+    }, {
+      "@id" : "_:genid32"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid40"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#m"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "10"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid49"
+    }, {
+      "@id" : "_:genid47"
+    }, {
+      "@id" : "_:genid43"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid51"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#s"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "100"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin"
+    }, {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#n"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name of the ontology: Naruto Ontology\nAuthor: Raúl Méndez Horcas"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology/1.0.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Average strength."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Energy that allows a ninja to execute techniques."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Quantity of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Nature type of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lowest rank for a ninja."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Earth type of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fire type of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Advanced rank for a ninja."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "High amount of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Expert rank for a ninja."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A ninja leader of a village."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lightning type of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Low amount of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Medium amount of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Missions performed by ninjas, requested by citizens."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "180000"
+  } ],
+  "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1"
+  }, {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2"
+  } ],
+  "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "115"
+  } ],
+  "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Naruto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Person that uses chakra and strength to use skills."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Ninja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ninja characteristics."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Highest tier of ninja missions. Applied to missions when the security of the country depends on it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "High rank of ninja missions. Usually consists on escorting someone through a place full of bandits."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Medium rank for ninja missions. Usually consists on helping someone reach another village."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lowest rank for ninja missions. Usually consist on taking care of someone's pet or child."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Sasuke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Physical strength of a ninja."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "High strength."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Place where a group of ninjas and other citizens live."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/ontology/Village"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Water type of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Low strength."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wind type of chakra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates which is the nature type of chakra of a ninja."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates which mission has a ninja completed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates to which village a ninja belongs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#m",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#n",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#s",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
