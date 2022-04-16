@@ -1,0 +1,535 @@
+@prefix : <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#> .
+
+<http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology> rdf:type owl:Ontology ;
+                                                                      owl:versionIRI <http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology/1.0.0> ;
+                                                                      rdfs:comment """Name of the ontology: Naruto Ontology
+Author: Raúl Méndez Horcas""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty ;
+            rdfs:range xsd:anyURI ;
+            rdfs:domain owl:Thing .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType
+:hasChakraType rdf:type owl:ObjectProperty ;
+               rdfs:domain :Ninja ;
+               rdfs:range :ChakraType ;
+               rdfs:comment "Indicates which is the nature type of chakra of a ninja." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted
+:hasCompleted rdf:type owl:ObjectProperty ;
+              rdfs:domain :Ninja ;
+              rdfs:range :Mission ;
+              rdfs:comment "Indicates which mission has a ninja completed." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage
+:hasVillage rdf:type owl:ObjectProperty ;
+            rdfs:domain :Ninja ;
+            rdfs:range :Village ;
+            rdfs:comment "Indicates to which village a ninja belongs." .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel
+:hasChakraLevel rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Ninja ;
+                rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions
+:hasMissions rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Ninja ;
+             rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength
+:hasStrength rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Ninja ;
+             rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average
+:Average rdf:type owl:Class ;
+         rdfs:subClassOf :Strength ;
+         rdfs:comment "Average strength." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra
+:Chakra rdf:type owl:Class ;
+        rdfs:subClassOf :NinjaCharacteristics ;
+        rdfs:comment "Energy that allows a ninja to execute techniques." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel
+:ChakraLevel rdf:type owl:Class ;
+             rdfs:subClassOf :Chakra ;
+             rdfs:comment "Quantity of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType
+:ChakraType rdf:type owl:Class ;
+            rdfs:subClassOf :Chakra ;
+            rdfs:comment "Nature type of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin
+:Chunin rdf:type owl:Class ;
+        rdfs:subClassOf :Ninja ;
+        rdfs:comment "Lowest rank for a ninja." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth
+:Earth rdf:type owl:Class ;
+       rdfs:subClassOf :ChakraType ;
+       rdfs:comment "Earth type of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire
+:Fire rdf:type owl:Class ;
+      rdfs:subClassOf :ChakraType ;
+      rdfs:comment "Fire type of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin
+:Genin rdf:type owl:Class ;
+       rdfs:subClassOf :Ninja ;
+       rdfs:comment "Advanced rank for a ninja." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra
+:HighChakra rdf:type owl:Class ;
+            rdfs:subClassOf :ChakraLevel ;
+            rdfs:comment "High amount of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin
+:Jonin rdf:type owl:Class ;
+       rdfs:subClassOf :Ninja ;
+       rdfs:comment "Expert rank for a ninja." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage
+:Kage rdf:type owl:Class ;
+      rdfs:subClassOf :Ninja ;
+      rdfs:comment "A ninja leader of a village." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning
+:Lightning rdf:type owl:Class ;
+           rdfs:subClassOf :ChakraType ;
+           rdfs:comment "Lightning type of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra
+:LowChakra rdf:type owl:Class ;
+           rdfs:subClassOf :ChakraLevel ;
+           rdfs:comment "Low amount of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra
+:MediumChakra rdf:type owl:Class ;
+              rdfs:subClassOf :ChakraLevel ;
+              rdfs:comment "Medium amount of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission
+:Mission rdf:type owl:Class ;
+         rdfs:comment "Missions performed by ninjas, requested by citizens." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja
+:Ninja rdf:type owl:Class ;
+       rdfs:comment "Person that uses chakra and strength to use skills." ;
+       rdfs:sameAs "https://dbpedia.org/page/Ninja" .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics
+:NinjaCharacteristics rdf:type owl:Class ;
+                      rdfs:comment "Ninja characteristics." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission
+:RankAMission rdf:type owl:Class ;
+              rdfs:subClassOf :Mission ;
+              rdfs:comment "Highest tier of ninja missions. Applied to missions when the security of the country depends on it." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission
+:RankBMission rdf:type owl:Class ;
+              rdfs:subClassOf :Mission ;
+              rdfs:comment "High rank of ninja missions. Usually consists on escorting someone through a place full of bandits." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission
+:RankCMission rdf:type owl:Class ;
+              rdfs:subClassOf :Mission ;
+              rdfs:comment "Medium rank for ninja missions. Usually consists on helping someone reach another village." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission
+:RankDMission rdf:type owl:Class ;
+              rdfs:subClassOf :Mission ;
+              rdfs:comment "Lowest rank for ninja missions. Usually consist on taking care of someone's pet or child." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength
+:Strength rdf:type owl:Class ;
+          rdfs:subClassOf :Chakra ;
+          rdfs:comment "Physical strength of a ninja." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong
+:Strong rdf:type owl:Class ;
+        rdfs:subClassOf :Strength ;
+        rdfs:comment "High strength." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village
+:Village rdf:type owl:Class ;
+         rdfs:comment "Place where a group of ninjas and other citizens live." ;
+         rdfs:sameAs "https://dbpedia.org/ontology/Village" .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water
+:Water rdf:type owl:Class ;
+       rdfs:subClassOf :ChakraType ;
+       rdfs:comment "Water type of chakra." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak
+:Weak rdf:type owl:Class ;
+      rdfs:subClassOf :Strength ;
+      rdfs:comment "Low strength." .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind
+:Wind rdf:type owl:Class ;
+      rdfs:subClassOf :ChakraType ;
+      rdfs:comment "Wind type of chakra." .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Leaf_Village
+:Leaf_Village rdf:type owl:NamedIndividual ,
+                       :Village .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_B5
+:MIssion_B5 rdf:type owl:NamedIndividual ,
+                     :RankBMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MIssion_C1
+:MIssion_C1 rdf:type owl:NamedIndividual ,
+                     :RankCMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A1
+:Mission_A1 rdf:type owl:NamedIndividual ,
+                     :RankAMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_A2
+:Mission_A2 rdf:type owl:NamedIndividual ,
+                     :RankAMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B1
+:Mission_B1 rdf:type owl:NamedIndividual ,
+                     :RankBMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B2
+:Mission_B2 rdf:type owl:NamedIndividual ,
+                     :RankBMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B3
+:Mission_B3 rdf:type owl:NamedIndividual ,
+                     :RankBMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_B4
+:Mission_B4 rdf:type owl:NamedIndividual ,
+                     :RankBMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C2
+:Mission_C2 rdf:type owl:NamedIndividual ,
+                     :RankCMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C3
+:Mission_C3 rdf:type owl:NamedIndividual ,
+                     :RankCMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C4
+:Mission_C4 rdf:type owl:NamedIndividual ,
+                     :RankCMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_C5
+:Mission_C5 rdf:type owl:NamedIndividual ,
+                     :RankCMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D1
+:Mission_D1 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D2
+:Mission_D2 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D3
+:Mission_D3 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D4
+:Mission_D4 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D5
+:Mission_D5 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D6
+:Mission_D6 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D7
+:Mission_D7 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D8
+:Mission_D8 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission_D9
+:Mission_D9 rdf:type owl:NamedIndividual ,
+                     :RankDMission .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Naruto
+:Naruto rdf:type owl:NamedIndividual ,
+                 :Ninja ;
+        :hasCompleted :MIssion_B5 ,
+                      :MIssion_C1 ,
+                      :Mission_A1 ,
+                      :Mission_A2 ,
+                      :Mission_B1 ,
+                      :Mission_B2 ,
+                      :Mission_B3 ,
+                      :Mission_B4 ,
+                      :Mission_C2 ,
+                      :Mission_C3 ,
+                      :Mission_C4 ,
+                      :Mission_D1 ,
+                      :Mission_D2 ;
+        :hasVillage :Leaf_Village ;
+        :hasChakraLevel 180000 ;
+        :hasMissions 13 ;
+        :hasStrength 115 ;
+        rdfs:sameAs "https://dbpedia.org/page/Naruto" .
+
+
+###  http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Sasuke
+:Sasuke rdf:type owl:NamedIndividual ,
+                 :Ninja .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Average
+                :Strong
+                :Weak
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Chunin
+                :Genin
+                :Jonin
+                :Kage
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :HighChakra
+                :LowChakra
+                :MediumChakra
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :RankAMission
+                :RankBMission
+                :RankCMission
+                :RankDMission
+              )
+] .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#n> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#c> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#m> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#s> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Ninja ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasChakraLevel ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#c> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 10000 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :HighChakra ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Ninja ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasMissions ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#m>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#m> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 10 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Chunin ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Ninja ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasStrength ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#s> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 100 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Strong ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#n>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
