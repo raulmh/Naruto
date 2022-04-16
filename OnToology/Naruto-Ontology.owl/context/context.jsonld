@@ -1,0 +1,115 @@
+{
+  "@context" : {
+    "Weak" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Weak"
+    },
+    "hasMissions" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasMissions",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Genin" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Genin"
+    },
+    "Average" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Average"
+    },
+    "hasCompleted" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasCompleted",
+      "@type" : "@id"
+    },
+    "Wind" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Wind"
+    },
+    "RankDMission" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankDMission"
+    },
+    "Kage" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Kage"
+    },
+    "ChakraType" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraType"
+    },
+    "Ninja" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Ninja"
+    },
+    "Lightning" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Lightning"
+    },
+    "Fire" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Fire"
+    },
+    "hasVillage" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasVillage",
+      "@type" : "@id"
+    },
+    "ChakraLevel" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#ChakraLevel"
+    },
+    "Water" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Water"
+    },
+    "RankCMission" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankCMission"
+    },
+    "Chakra" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chakra"
+    },
+    "Earth" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Earth"
+    },
+    "NinjaCharacteristics" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#NinjaCharacteristics"
+    },
+    "hasStrength" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasStrength",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "LowChakra" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#LowChakra"
+    },
+    "HighChakra" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#HighChakra"
+    },
+    "Strength" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strength"
+    },
+    "hasChakraLevel" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraLevel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Mission" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Mission"
+    },
+    "Village" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Village"
+    },
+    "hasChakraType" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#hasChakraType",
+      "@type" : "@id"
+    },
+    "RankBMission" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankBMission"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "RankAMission" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#RankAMission"
+    },
+    "Jonin" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Jonin"
+    },
+    "MediumChakra" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#MediumChakra"
+    },
+    "Strong" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Strong"
+    },
+    "Chunin" : {
+      "@id" : "http://www.semanticweb.org/raulm/ontologies/2022/3/Naruto-Ontology#Chunin"
+    }
+  }
+}
